@@ -1,0 +1,56 @@
+/* CSS for the page layout */
+body {
+    background-color: #f0f0f0; /* אפור בהיר לרקע */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    flex-direction: column;
+}
+
+.container {
+    background-color: #ffffff; /* לבן למלבן המרכזי */
+    border-radius: 15px; /* פינות מעוגלות */
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    width: 210px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+#first {
+    color: #000000; /* טקסט שחור */
+    font-weight: bold; /* בולד */
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+#second {
+    color: #808080; /* טקסט אפור */
+    margin-top: 10px;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.attribution {
+    color: #808080;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 12px;
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+}
